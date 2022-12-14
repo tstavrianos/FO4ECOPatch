@@ -54,8 +54,8 @@ namespace FO4ECOPatch
                     if (record.EditorID.Contains("Naked", StringComparison.OrdinalIgnoreCase)) continue;
                     if (record.BodyTemplate is not null)
                     {
-                        if (record.BodyTemplate.FirstPersonFlags.HasFlag(BodyTemplate.Flag.Scalp) ||
-                            record.BodyTemplate.FirstPersonFlags.HasFlag(BodyTemplate.Flag.Decapitation)) continue;
+                        if (record.BodyTemplate.FirstPersonFlags.HasFlag(BipedObjectFlag.Scalp) ||
+                            record.BodyTemplate.FirstPersonFlags.HasFlag(BipedObjectFlag.Decapitation)) continue;
                         if (record.BodyTemplate.FirstPersonFlags is BipedObjectFlag.FaceGenHead
                             or BipedObjectFlag.Pipboy or BipedObjectFlag.FX) continue;
                     }
