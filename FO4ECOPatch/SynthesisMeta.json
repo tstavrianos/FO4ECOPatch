@@ -1,10 +1,12 @@
 {
-  "Nickname": "FO4ECOPatch",
+  "Nickname": "ECO Patcher",
   "Visibility": "Visible",
-  "OneLineDescription": "",
-  "LongDescription": "",
+  "OneLineDescription": "ECO Patcher",
+  "LongDescription": "Equipment and Crafting Overhaul (ECO) Patcher",
   "PreferredAutoVersioning": "Default",
-  "RequiredMods": [],
+  "RequiredMods": [
+    "ECO.esp"
+  ],
   "TargetedReleases": [
     "Fallout4"
   ]
